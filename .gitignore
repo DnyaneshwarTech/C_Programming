@@ -5,3 +5,9 @@ myexe
 
 # Object files
 *.o
+
+# Build folders
+build/
+
+# VS Code settings
+.vscode/
