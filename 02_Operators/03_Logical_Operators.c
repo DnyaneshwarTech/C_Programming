@@ -14,9 +14,9 @@ int main()
     printf("\nLogical Operators Result : \n");
     printf("(1 = True, 0 = False)\n");
 
-    printf("\nLogical AND (&&) : %d",(iNo1 > iNo2) && (iNo2 > iNo1));
-    printf("\nLogical OR (||) : %d",(iNo1 > iNo2) || (iNo2 > iNo1));
-    printf("\nLogical NOT (!) : %d", !(iNo1 > iNo2));
+    printf("\nLogical AND (&&) : %d",(iNo1 > 0) && (iNo2 > 0));
+    printf("\nLogical OR (||) : %d",(iNo1 > 0) || (iNo2 > 0));
+    printf("\nLogical NOT (!) : %d", !(iNo1 > 0));
 
     printf("\n");
 
