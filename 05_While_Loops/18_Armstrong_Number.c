@@ -15,7 +15,7 @@ int main()
         Sum = Sum + (Remainder * Remainder * Remainder);
         Num = Num / 10;
     }
-*
+
     if(OriginalNum == Sum)
     {
         printf("%d is an Armstrong Number\n", OriginalNum);
